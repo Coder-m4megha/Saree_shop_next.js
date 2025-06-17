@@ -1,12 +1,6 @@
 'use client'
 
-import type { Metadata } from "next"
 import AccountDashboard from "./account-dashboard"
-
-export const metadata: Metadata = {
-  title: "My Account | Mohit Saree Center",
-  description: "Manage your account, orders, and preferences.",
-}
 
 export default function AccountPage() {
   return (
@@ -15,4 +9,3 @@ export default function AccountPage() {
     </main>
   )
 }
-
