@@ -1,3 +1,5 @@
+'use client';
+
 import type { Metadata } from "next"
 import AccountDashboard from "./account-dashboard"
 
